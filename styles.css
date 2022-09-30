@@ -3,8 +3,12 @@
     padding: 0;
 }
 
-body{
+h1{
     font-family: 'Forum', cursive;
+}
+
+p{
+    font-family: 'Prompt', sans-serif;
 }
 
 #banner{
@@ -17,7 +21,7 @@ body{
 .logo{
     width: 180px;
     position: absolute;
-    top: 4%;
+    top: 2%;
     left: 10%;
 }
 
@@ -29,7 +33,6 @@ body{
 
 .bannerText h1{
     font-size: 130px;
-    font-family: 'Forum', cursive;
 }
 
 .bannerText p{
@@ -95,6 +98,7 @@ nav ul li a{
     text-decoration: none;
     color: whitesmoke;
     font-weight: 600;
+    font-family: 'Forum', cursive;
 }
 
 #btnMenu{
@@ -102,8 +106,8 @@ nav ul li a{
     height: 50px;
     text-align: center;
     position: fixed;
-    right: 30px;
-    top: 20px;
+    right: 18px;
+    top: 40px;
     border-radius: 3px;
     z-index: 3;
     cursor: pointer;
@@ -124,5 +128,111 @@ nav ul li a{
     }
     .bannerText{
         padding-top: 350px;
+    }
+}
+
+/* Sección Estilos */
+
+#estilos{
+    width: 100%;
+    padding: 70px 0;
+}
+
+.tittleText{
+    text-align: center;
+    padding-bottom: 70px;
+}
+
+.tittleText p{
+    margin: auto;
+    font-size: 20px;
+    color: rgb(136, 29, 29);
+    font-weight: bold;
+    position: relative;
+    z-index: 1;
+    display: inline-block;
+}
+
+.tittleText h1{
+    font-size: 50px;
+}
+
+.boxEstilos{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+}
+
+.cardEstilos{
+    flex-basis: 50%;
+}
+
+.cardEstilos h1{
+    text-align: center;
+    margin-bottom: 50px;
+    font-size: 32px;
+}
+
+.cardEstilos h2{
+    text-align: left;
+    font-family: 'Courgette', cursive;
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.imgEstilos{
+    flex-basis: 50%;
+    margin: auto;
+}
+
+.imgEstilos img{
+    width: 70%;
+}
+
+.descriptionEstilos{
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+    font-weight: 500;
+}
+
+.textEstilos{
+    text-align: left;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.iconEstilos img{
+    width: 50px;
+    height: 50px;
+    font-size: 30px;
+    line-height: 50px;
+}
+
+.textEstilos2 p{
+    padding: 0 20px;
+    text-align: initial;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+@media screen and (max-width: 770px){
+    .tittleText h1{
+        font-size: 35px;
+    }
+    .cardEstilos{
+        flex-basis: 100%;
+    }
+    .cardEstilos h1{
+        font-size: 25px;
+    }
+    .imgEstilos{
+        flex-basis: 100%;
+    }
+    .imgEstilos img{
+        width: 100%;
     }
 }
