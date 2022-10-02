@@ -236,3 +236,97 @@ nav ul li a{
         width: 100%;
     }
 }
+
+#servicios{
+    width: 100%;
+    padding: 70px 0;
+    background:#0c0c0c;
+}
+
+#servicios h1{
+    color: white;
+}
+
+.boxServicios{
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: auto;
+}
+
+.cardServicios{
+    flex-basis: 48%;
+    text-align: center;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    color: #fff;
+    position: relative;
+}
+
+.cardServicios img{
+    width: 100%;
+    border-radius: 8px;
+}
+
+.imgHover{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    border-radius: 8px;
+    cursor:pointer;
+    background: linear-gradient(rgba(0,0,0,0.5),#0c0c0c);
+    opacity: 0;
+    transition: 1s;
+}
+
+.cardServicios:hover .imgHover{
+    opacity: 1;
+}
+
+.descripServicios{
+    width: 80%;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    opacity: 0;
+    transform: translate(-50%);
+    transition: 1s;
+}
+
+hr{
+    background: #fff;
+    height: 2px;
+    border: 0;
+    margin: 15px auto;
+    width: 60%;
+}
+
+.descripServicios h3{
+    font-family: 'Forum', cursive;
+}
+
+.cardServicios:hover .descripServicios{
+    bottom: 40%;
+    opacity: 1;
+}
+
+@media screen and (max-width: 770px){
+    .cardServicios{
+        flex-basis: 100%;
+        margin-bottom: 30px;
+    }
+
+    .descripServicios p{
+        font-size: 12px;
+    }
+
+    hr{
+        margin: 5px auto;
+    }
+
+    .cardServicios:hover .descripServicios{
+        bottom: 25%;
+    }
+}
