@@ -330,3 +330,123 @@ hr{
         bottom: 25%;
     }
 }
+
+#nuestroSalon{
+    width: 100%;
+    padding: 70px 0;
+}
+
+
+
+
+
+
+
+#contacto{
+    width: 100%;
+    padding: 70px 0;
+    background-color: #0c0c0c;
+}
+
+#contacto h1{
+    color: white;
+}
+
+.formBox{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+form{
+    width: 90%;
+    max-width: 700px;
+    text-align: center;
+}
+
+.inputBox{
+    margin-bottom: 30px;
+    position: relative;
+}
+
+input, textarea{
+    width: 100%;
+    padding: 10px;
+    outline: 0;
+    border: 1px solid #fff;
+    color: white;
+    background-color: #0c0c0c;
+    font-size: 15px;
+    font-family: 'Prompt', sans-serif;
+}
+
+label{
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    padding: 10px;
+    color:rgb(136, 29, 29);
+    cursor: text;
+    font-family: 'Prompt', sans-serif;
+    font-weight: 600;
+    transition: 0.2s;
+}
+
+input:focus~label,
+input:valid~label,
+textarea:focus~label,
+textarea:valid~label{
+    top: -35px;
+    font-size: 14px;
+}
+
+.contactBtn{
+    margin: 50px auto 0;
+    font-family: 'Forum', cursive;
+}
+
+.contactBtn a{
+    width: 120px;
+    text-decoration: none;
+    display: inline-block;
+    padding: 12px 0;
+    color: whitesmoke;
+    border-style: solid;
+    border-width: .5px;
+    border-color: whitesmoke;
+    font-weight: 600;
+    position: relative;
+    z-index: 1;
+    transition: color 0.5s;
+}
+
+.contactBtn a span{
+    width: 0%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: whitesmoke;
+    z-index: -1;
+    transition: 0.5s;
+}
+
+.contactBtn a:hover span{
+    width: 100%;
+}
+
+.contactBtn a:hover{
+    color: black;
+}
+
+@media screen and (max-width: 770px){
+    form{
+        width: 80%;
+        max-width: 100vmax;
+        text-align: center;
+    }
+    input, textarea{
+        width: 90%;
+    }
+}
