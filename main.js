@@ -15,7 +15,7 @@ btnMenu.onclick = function() {
     }
 }
 
-var scroll = new SmoothScroll('a[href*="#"]', {
+let scroll = new SmoothScroll('a[href*="#"]', {
 	speed: 1000,
 	speedAsDuration: true
 });

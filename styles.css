@@ -134,6 +134,10 @@ nav ul li a:hover{
     .bannerText{
         padding-top: 350px;
     }
+    #navbar{
+        width: 160px;
+        right: -160px;
+    }
 }
 
 /* Sección Estilos */
