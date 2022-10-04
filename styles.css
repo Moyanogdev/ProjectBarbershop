@@ -340,7 +340,7 @@ hr{
     }
 }
 
-#nuestroSalon{
+#nuestroEquipo{
     width: 100%;
     padding: 70px 0;
 }
@@ -549,6 +549,13 @@ textarea:valid~label{
 }
 
 @media screen and (max-width: 770px){
+    h2{
+        text-align: center;
+    }
+    .footer{
+        justify-content: center;
+        text-align: center;
+    }
     .footerLeft,.footerRight{
         flex-basis: 100%;
         font-size: 13px;
