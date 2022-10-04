@@ -14,3 +14,8 @@ btnMenu.onclick = function() {
         menuNav.src = "img/menuNav.png"
     }
 }
+
+var scroll = new SmoothScroll('a[href*="#"]', {
+	speed: 1000,
+	speedAsDuration: true
+});
