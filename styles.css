@@ -140,6 +140,17 @@ nav ul li a:hover{
     }
 }
 
+@media screen and (min-width: 771px) and (max-width: 1440px){
+    .bannerText{
+        padding-top: 400px;
+    }
+    .bannerText h1{
+        font-size: 100px;
+    }
+    .bannerText p{
+        font-size: 18px;
+    }
+}
 /* Sección Estilos */
 
 #estilos{
@@ -554,7 +565,6 @@ textarea:valid~label{
     }
     .footer{
         justify-content: center;
-        text-align: center;
     }
     .footerLeft,.footerRight{
         flex-basis: 100%;
