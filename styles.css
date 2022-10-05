@@ -125,7 +125,13 @@ nav ul li a:hover{
 
 @media screen and (max-width: 770px){
     .bannerText h1{
-        font-size: 44px;
+        font-size: 50px;
+    }
+    .bannerText p{
+        font-size: 16px;
+    }
+    .bannerBtn{
+        margin-top: 55px;
     }
     .bannerBtn a{
         display: block;
@@ -142,7 +148,10 @@ nav ul li a:hover{
 
 @media screen and (min-width: 771px) and (max-width: 1440px){
     .bannerText{
-        padding-top: 400px;
+        padding-top: 300px;
+    }
+    .bannerBtn{
+        margin-top: 60px;
     }
     .bannerText h1{
         font-size: 100px;
