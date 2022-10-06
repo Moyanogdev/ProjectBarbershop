@@ -360,16 +360,122 @@ hr{
     }
 }
 
+@media screen and (min-width: 771px) and (max-width: 1440px){
+    hr{
+        margin: 12px auto;
+    }
+    .descripServicios p{
+        font-size: 14px;
+    }
+    .cardServicios:hover .descripServicios{
+        bottom: 30%;
+    }
+}
+
 #nuestroEquipo{
     width: 100%;
     padding: 70px 0;
 }
 
+.boxEquipo{
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: auto;
+    margin-bottom: 30px;
+}
 
+.cardEquipo{
+    flex-basis: 32%;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    position: relative;
+}
 
+.cardEquipo img{
+    width: 100%;
+    border-radius: 8px;
+    opacity: 1;
+    margin-bottom: 10px;
+}
 
+.cardEquipo img:hover{
+    opacity: 0.9;
+}
 
+.cardEquipo p{
+    text-align: center;
+    font-family: 'Courgette', cursive;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
 
+.boxEquipo2{
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: auto;
+    margin-bottom: 30px;
+    align-items: center;
+}
+
+.descriptEquipo{
+    flex-basis: 48%;
+    position: relative;
+}
+
+.imgEquipo{
+    flex-basis: 25%;
+    position: relative;
+}
+
+.imgEquipo img{
+    width: 100%;
+}
+
+.boxEquipo3{
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: auto;
+    margin-bottom: 30px;
+    align-items: center;
+}
+
+.descriptEquipo2{
+    flex-basis: 48%;
+    position: relative;
+}
+
+.imgEquipo2{
+    flex-basis: 25%;
+    position: relative;
+}
+
+.imgEquipo2 img{
+    width: 100%;
+}
+
+@media screen and (max-width: 770px){
+    .cardEquipo{
+        flex-basis: 100%;
+    }
+    .imgEquipo{
+        flex-basis: 50%;
+        margin-bottom: 25px;
+    }
+    .imgEquipo2{
+        flex-basis: 60%;
+    }
+    .descriptEquipo, .descriptEquipo2{
+        flex-basis: 100%;
+        text-align: center;
+        margin-bottom: 25px;
+    }
+}
 
 #contacto{
     width: 100%;
