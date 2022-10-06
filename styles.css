@@ -391,17 +391,25 @@ hr{
     border-radius: 8px;
     margin-bottom: 20px;
     position: relative;
+    transition: .4s ease-in-out; 
+}
+
+.cardEquipo:hover{
+    color: rgb(136, 29, 29);
+    font-size: 20px;
 }
 
 .cardEquipo img{
     width: 100%;
     border-radius: 8px;
-    opacity: 1;
     margin-bottom: 10px;
+    cursor: pointer;
+    transition: .4s ease-in-out;
 }
 
 .cardEquipo img:hover{
-    opacity: 0.9;
+    transform: scale(0.8) rotate(-8deg);
+    box-shadow: 0 32px 75px rgb(59, 59, 59);
 }
 
 .cardEquipo p{
