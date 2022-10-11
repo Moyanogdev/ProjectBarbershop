@@ -12,7 +12,7 @@ p{
 }
 
 #banner{
-    background: linear-gradient(rgba(0,0,0,0.5),#0c0c0c), url(img/bannerBarber.jpeg);
+    background: linear-gradient(rgba(0,0,0,0.5),#0c0c0c), url(../img/bannerBarber.jpeg);
     background-size: cover;
     background-position: center;
     height: 100vh;
