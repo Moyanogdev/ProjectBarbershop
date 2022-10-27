@@ -1,3 +1,4 @@
+/* Estilos Generales del sitio */
 *{
     margin: 0;
     padding: 0;
@@ -11,18 +12,22 @@ p{
     font-family: 'Prompt', sans-serif;
 }
 
-#banner{
-    background: linear-gradient(rgba(0,0,0,0.5),#0c0c0c), url(../img/bannerBarber.jpeg);
-    background-size: cover;
-    background-position: center;
-    height: 100vh;
-}
+/* ESTILOS DEL HEADER */
 
+/* Estilos del Logo */
 .logo{
     width: 180px;
     position: absolute;
     top: 2%;
     left: 10%;
+}
+
+/* Estilos del Banner | Home */
+#banner{
+    background: linear-gradient(rgba(0,0,0,0.5),#0c0c0c), url(../img/bannerBarber.jpeg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
 }
 
 .bannerText{
@@ -78,6 +83,7 @@ p{
     color: black;
 }
 
+/* Estilos del Navbar */
 #navbar{
     width: 250px;
     height: 100vh;
@@ -106,6 +112,7 @@ nav ul li a:hover{
     color: rgb(136, 29, 29);
 }
 
+/* Estilos del botón del Menú de Navegación */
 #btnMenu{
     width: 50px;
     height: 50px;
@@ -123,6 +130,7 @@ nav ul li a:hover{
     margin-top: 15px;
 }
 
+/* Media queries de la sección Header */
 @media screen and (max-width: 770px){
     .bannerText h1{
         font-size: 50px;
@@ -160,7 +168,8 @@ nav ul li a:hover{
         font-size: 18px;
     }
 }
-/* Sección Estilos */
+
+/* ESTILOS SECCIÓN ESTILOS */
 
 #estilos{
     width: 100%;
@@ -248,6 +257,7 @@ nav ul li a:hover{
     font-weight: 400;
 }
 
+/* Media queries Sección Estilos */
 @media screen and (max-width: 770px){
     .tittleText h1{
         font-size: 35px;
@@ -265,6 +275,8 @@ nav ul li a:hover{
         width: 100%;
     }
 }
+
+/* ESTILOS SECCIÓN SERVICIOS */ 
 
 #servicios{
     width: 100%;
@@ -341,6 +353,7 @@ hr{
     opacity: 1;
 }
 
+/* Media queries Sección Servicios */
 @media screen and (max-width: 770px){
     .cardServicios{
         flex-basis: 100%;
@@ -371,6 +384,8 @@ hr{
         bottom: 30%;
     }
 }
+
+/* ESTILOS SECCIÓN NUESTRO EQUIPO */
 
 #nuestroEquipo{
     width: 100%;
@@ -467,6 +482,7 @@ hr{
     width: 100%;
 }
 
+/* Media queries Sección Nuestro Equipo */
 @media screen and (max-width: 770px){
     .cardEquipo{
         flex-basis: 100%;
@@ -484,6 +500,8 @@ hr{
         margin-bottom: 25px;
     }
 }
+
+/* ESTILOS SECCIÓN CONTACTO */
 
 #contacto{
     width: 100%;
@@ -583,6 +601,7 @@ textarea:valid~label{
     color: black;
 }
 
+/* Media queries Sección Contacto */
 @media screen and (max-width: 770px){
     form{
         width: 80%;
@@ -594,9 +613,11 @@ textarea:valid~label{
     }
 }
 
+/* Estilos del Footer del sitio */
+
 #footer{
     padding: 100px 0 20px;
-    background-color: rgb(228, 225, 225);
+    background-color: whitesmoke;
 }
 
 #footer h1{
@@ -682,6 +703,7 @@ textarea:valid~label{
     color: rgb(136, 29, 29);
 }
 
+/* Media queries Footer */
 @media screen and (max-width: 770px){
     h2{
         text-align: center;

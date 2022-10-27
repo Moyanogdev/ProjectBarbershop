@@ -1,3 +1,5 @@
+// MENU DE NAVEGACIÓN | EFECTO 
+
 let btnMenu = document.getElementById("btnMenu");
 let navbar = document.getElementById("navbar");
 let menuNav = document.getElementById("menuNav");
@@ -14,6 +16,8 @@ btnMenu.onclick = function() {
         menuNav.src = "img/menuNav.png"
     }
 }
+
+// SMOOTH SCROLL | VELOCIDAD DE SCROLL
 
 let scroll = new SmoothScroll('a[href*="#"]', {
 	speed: 1000,
